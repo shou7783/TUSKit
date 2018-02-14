@@ -9,7 +9,7 @@
 
 @interface TUSSession() <TUSResumableUploadDelegate, NSURLSessionDataDelegate>
 
-@property (nonatomic, strong) NSURLSession *session; // Session to use for uploads
+//@property (nonatomic, strong) NSURLSession *session; // Session to use for uploads
 @property (nonatomic, strong) NSURL *createUploadURL;
 @property (nonatomic, strong) TUSUploadStore *store; // Data store to save upload status in
 @property (nonatomic, strong) NSMutableDictionary <NSString *, TUSResumableUpload *>* uploads;

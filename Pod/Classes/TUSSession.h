@@ -16,6 +16,7 @@
  */
 @interface TUSSession : NSObject
 @property BOOL allowsCellularAccess;
+@property (nonatomic, strong) NSURLSession * _Nullable session; // Session to use for uploads
 
 /**
  Initialize
