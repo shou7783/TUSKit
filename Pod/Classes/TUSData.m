@@ -220,7 +220,10 @@
     }
 }
 
--(void)close{}
+-(void)close{
+    [self stop];
+}
+
 -(BOOL)open
 {
     return YES;
